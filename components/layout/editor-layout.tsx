@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from 'react'
-import { Terminal } from '../terminal'
+import { Terminal } from '../editor/terminal'; 
 
 export function EditorLayout({ children }: { children: React.ReactNode }) {
   const [showTerminal, setShowTerminal] = useState(false)

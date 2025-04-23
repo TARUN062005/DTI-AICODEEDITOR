@@ -15,8 +15,8 @@ const TerminalCore = dynamic(
 )
 export function Terminal() {
   return (
-    <div className="h-full flex flex-col">
-      <TerminalCore />
+    <div className="bg-black text-white p-4">
+      {/* Terminal implementation */}
     </div>
   )
 }
